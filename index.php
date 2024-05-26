@@ -61,15 +61,15 @@
         </nav><br><br>
 
 
-        <div class="d-flex p-2">
+        <div class="d-flex justify-content-center">
         <div class="card mb-5" style="width: 60%;">
                 <img src="data/images/masjid copy.jpg" class="card-img-top" alt="Madarsa Picture">
                 <div class="card-body">
                     <h2 class="card-title text-center">مدرسہ مفتاح العلوم</h2>
-                    <p class="card-text">مدرسہ مفتاح العلوم ایک دینی ادارہ ہے جو جامع مسجد اسلامیہ نارتھ ناظم آباد بلاک این میں واقع ہے۔ اس مسجد کی بنیاد مفتی ولی حسن ٹونکی رحمہ اللہ نے رکھی تھی۔</p>
+                    <p class="card-text text-center">مدرسہ مفتاح العلوم ایک دینی ادارہ ہے جو جامع مسجد اسلامیہ نارتھ ناظم آباد بلاک این میں واقع ہے۔ اس مسجد کی بنیاد مفتی ولی حسن ٹونکی رحمہ اللہ نے رکھی تھی۔</p>
                 </div>
         </div> <!-- card -->
-        </div>
+        </div> <!-- d-flex justify-content-center -->
         
 
         </div> <!-- container -->
