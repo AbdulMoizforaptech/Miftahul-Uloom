@@ -1,0 +1,30 @@
+.body-home {
+    background: url(data/images/masjid\ copy.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font: 16px/20px "Jameel Noori Nastaleeq","Alvi Nastaleeq", "Sakkal Majalla";
+}
+
+.black-fill{
+    background: rgba(0, 0, 0, 0.7);
+    min-height: 100vh;
+}
+
+#homeNav {
+    background: rgba(255,255,255, 0.5) !important;
+}
+
+.nav-logo {
+    width: 50px;
+}
+
+.nav-link {
+    font-size: 22px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.dropdown-item {
+    font-size: 18px;
+}
+
