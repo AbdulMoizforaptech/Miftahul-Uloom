@@ -12,7 +12,7 @@
     <div class="black-fill"> <br><br>
         <div class="container">
 
-        <nav class="navbar navbar-expand-lg bg-light" id="homeNav">
+        <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand"><img class="nav-logo" src="data/images/Falah Logo png.png"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,17 +20,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">   
-                    <li class="nav-item dropdown">
-                            <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                لاگ ان
-                            </a>
-                            <ul class="dropdown-menu text-center">
-                                <li><a class="dropdown-item" href="#">ایڈمن</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">اساتذہ</a></li>
-                                <li><a class="dropdown-item" href="#">والدین</a></li>
-                            </ul>
-                        </li>
+                <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="login.php">لاگ ان</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">رابطہ</a>
                     </li>
@@ -66,7 +58,7 @@
                 <img src="data/images/masjid copy.jpg" class="card-img-top" alt="Madarsa Picture">
                 <div class="card-body">
                     <h2 class="card-title text-center">مدرسہ مفتاح العلوم</h2>
-                    <p class="card-text text-center">مدرسہ مفتاح العلوم ایک دینی ادارہ ہے جو جامع مسجد اسلامیہ نارتھ ناظم آباد بلاک این میں واقع ہے۔ اس مسجد کی بنیاد مفتی ولی حسن ٹونکی رحمہ اللہ نے رکھی تھی۔</p>
+                    <p class="card-text text-end">مدرسہ مفتاح العلوم ایک دینی ادارہ ہے جو وفاق المدارس العربیۃ سے ملحق اور جامع مسجد اسلامیہ نارتھ ناظم آباد بلاک این میں واقع ہے۔ اس مسجد کی بنیاد مفتی ولی حسن ٹونکی رحمہ اللہ نے رکھی تھی۔ اس ادارے میں بچوں اوربچیوں کو دینی و عصری مفت تعلیم دی جاتی ہے۔</p>
                 </div>
         </div> <!-- card -->
         </div> <!-- d-flex justify-content-center -->
