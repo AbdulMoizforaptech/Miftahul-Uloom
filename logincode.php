@@ -16,6 +16,7 @@ if (isset($_POST['login'])) {
     if (mysqli_num_rows($result)>0){
         foreach ($result as $rows){
             $user_id = $rows['id'];
+            $user_name = $rows['name'];
             $user_email = $rows['email'];
             $user_password = $rows['password'];
             $user_role = $rows['role'];
@@ -34,16 +35,16 @@ if (isset($_POST['login'])) {
         }elseif ($user_role == "parents") {
             header("Location: dashboards/parents.php");
         } else {
-            $_SESSION['status'] = "Incorrect or incomplete information";
+            $_SESSION['status'] = "درج کی گئیں معلومات غلط ہیں";
             header("Location: login.php");
         }
     } else {
-        $_SESSION['status'] = "Invalid Email or Password";
+        $_SESSION['status'] = "ای میل ایڈریس یا پاس ورڈ غلط ہے";
         header("Location: login.php");
     }
     
 } else {
-    $_SESSION['status'] = "Access Denied";
+    $_SESSION['status'] = "رسائی مسترد کردی گئی ہے";
     header("Location: login.php");
 }
 ?>

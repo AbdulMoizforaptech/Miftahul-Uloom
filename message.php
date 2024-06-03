@@ -3,11 +3,8 @@ if(isset($_SESSION['status'])) {
 ?>
   <div class="container">
   <div class="col-md-9">
-  <div class="alert alert-warning alert-dismissible fade show" role="alert">
-        <strong>Hey! </strong><?php echo $_SESSION['status'];?>
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-        </button>
+  <div class="alert alert-warning alert-dismissible fade show" style="font-family: Jameel Noori Nastaleeq; font-size: 20px" role="alert">
+        <?php echo $_SESSION['status'];?>
     </div>
   </div>
   </div>
