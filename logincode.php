@@ -24,6 +24,7 @@ if (isset($_POST['login'])) {
         $_SESSION['auth'] = $user_role;
         $_SESSION['auth_user'] = [
             'user_id' => $user_id,
+            'user_name' => $user_name,
             'user_email' => $user_email,
         ];
 
