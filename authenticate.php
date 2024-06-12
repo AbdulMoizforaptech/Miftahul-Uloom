@@ -18,7 +18,7 @@ else
     else
     {
         $_SESSION['status'] = "You are Not Authorized as Admin";
-        header("Location: ../website.php");
+        //header("Location: ../website.php");
         exit(0);
     }
 }

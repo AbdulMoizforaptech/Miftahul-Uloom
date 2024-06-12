@@ -9,7 +9,8 @@
     
 
 <?php
-
+session_start();
+include("../includes/config.php");
 include("../includes/header.php");
 
 
@@ -38,6 +39,9 @@ include("../includes/header.php");
 
 
       </li>
+
+      
+
       <div class="dropdown">
         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" style="font-family: Jameel Noori Nastaleeq; font-size: 20px" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <?php 
